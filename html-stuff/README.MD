@@ -1,4 +1,4 @@
-# learn from "The Complete 2022 Web Development Bootcamp"
+# html note
 
 - practice = mastery
 - check mdn/devdocs/codepen from google
