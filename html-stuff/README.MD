@@ -1,4 +1,4 @@
-# html note
+# HTML Note
 
 - practice = mastery
 - check mdn/devdocs/codepen from google
