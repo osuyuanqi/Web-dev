@@ -1,4 +1,4 @@
 # learn from "The Complete 2022 Web Development Bootcamp"
-- HTML stuff
-- CSS stuff
+- HTML stuff: note only
+- tinydog: use Bootstrap 
 - JS stuff
