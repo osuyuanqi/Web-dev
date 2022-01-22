@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<!-- program start -->
+  <div >
+    <p>Name: <input type="text" ng-model="name"></p>
+    <p ng-bind="name"></p>
+
+    <p>Name: <input type="text" ng-model="name"></p>
+    <p ng-bind="name"></p>
+<!-- automatic binding ex1-->
+    <p>My first expression: {{ 5 + 15 }}</p>
+<!-- automatic binding ex2-->
+
+<div id='abc' ng-init="myCol='green'">
+
+  <input style="background-color:{{myCol}}" ng-model="myCol">
+  </div>
+  <div ng-controller="myCtrl">
+{{ firstName + " " + lastName }}
+</div>
+<script>
+
+var app = angular.module("myApp", []);
+
+app.controller("myCtrl", function($scope) {
+  $scope.firstName = "John";
+  $scope.lastName = "Doe";
+});
+</script>
+  <!-- better to avoid use jq again, though it's ok -->
+  <!-- <script type="text/javascript" src = 'https://releases.jquery.com/git/jquery-git.min.js'>
+  </script> 
+  <script type="text/javascript">
+    
+    $('#abc').html('aaa')
+  </script> -->
+</body>
+</html>
