@@ -4,4 +4,4 @@ refer to the lecture from OSU prof. Rob Hess, [CS 499 – Advanced Web Developme
 
 #### Week 5
 
-[Loading animation](https://tobiasahlin.com/spinkit/)
+spinkit: [Loading animation](https://tobiasahlin.com/spinkit/)
