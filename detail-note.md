@@ -30,9 +30,11 @@
 - HTML order rule: 
 > Unlike CSS and JavaScript, HTML code is executed from top to bottom so the order of your code matters.
 - mock up [tool](https://balsamiq.cloud/)
+- responsive design: use @media. e.g. @media(max-width:1024px){body{color:red}}
+
 - Git ignore: git rm --cached -r
 - [AJAX](https://www.w3schools.com/whatis/whatis_ajax.asp) = Asynchronous JavaScript And XML, it allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page.
 - Alt/option + drag <-add same contents all line in Mac
-- 
+
 
 
