@@ -20,6 +20,8 @@
     text-align: center;
   }}
  >use browser: set header, meta name="viewport" content="width=device-width, initial-scale=1.0"
+- minify css file [improves loading speed](https://www.cleancss.com/css-minify/)
+  
 ### Node.js
 - nodemon: auto restart package
 - API auth -> order doesn't matter. e.g.www.xxxorg?a=xx&b=xx same as www.xxxorg?b=xx&a=xx 
