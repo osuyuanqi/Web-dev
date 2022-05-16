@@ -23,7 +23,7 @@
 - minify css file [improves loading speed](https://www.cleancss.com/css-minify/)
 
 ### CSS
-- percentage:fill all space; fr: only fill available free space;
+- percentage:fill all space; fr: only fill available free space, [diff](https://stackoverflow.com/questions/45090726/the-difference-between-percentage-and-fr-units);
 
 ### Node.js
 - nodemon: auto restart package
