@@ -25,18 +25,23 @@ span:last-child{
 
 /* ==== flexbox ==== */
 img{
-  width: 450px;
-  height: 300px;
+  width: 250px;
+  height: 200px;
   margin: 10px;
   transition: all 1s;
 }
 img:hover{
   transform: scale(1.1);
 }
-.container{
+./*container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}*/
+.container{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 /* ==== responsive part ==== */
