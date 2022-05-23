@@ -5,8 +5,7 @@
 - position: fixed, used in the navigation bar
 - center alignment->margin: 0 auto; width: 10%
 - embeded font keeps consistent: fonts.google.com
-- rem - the root of the body em, ignore the body {fontsize}
-- Bootstrap: responsive = adaptive, desktop/pad/phone has different layout-> use class="row"->"col-md-6", instead of "col-6" (fixed in all platforms). 
+- responsive = adaptive, desktop/pad/phone has different layout-> use class="row"->"col-md-6", instead of "col-6" (fixed in all platforms). 
 - layout tips: The bigger the device(e.g.sm,md,lg), the smaller part they occupied. e.g. medium device means ≥768px, use 6 units=6/12=50%=apply breakpoint=large device could use, so the smaller one= [100%](https://stackoverflow.com/questions/19865158/what-is-the-difference-among-col-lg-col-md-and-col-sm-in-bootstrap);)
 - [font awsome](https://fontawesome.com/): collect logo & font
   - use->add kit v6 
